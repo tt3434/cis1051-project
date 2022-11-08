@@ -4,7 +4,7 @@
 
 Reminder program or app.
 
-Gets input from user and saves the remainder.
+Gets input from user and saves the reminder.
 
 Message of the saved reminder pops up at the specific EST time or hours/minutes/seconds interval set by the user.
 
