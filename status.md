@@ -2,15 +2,15 @@
 
 #### Your name
 
-TODO
+Tiffany Truong
 
 #### Your section leader's name
 
-TODO
+Bin Li, Section 6
 
 #### Project title
 
-TODO
+Reminder Program
 
 ***
 
@@ -18,12 +18,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+Created a intervel feature for my reminder program using python time libary, that is functional. Validating input functions. User's message is stored in dictonary and with the specific time that it correlates to.
 
 #### What have you not done for your project yet?
 
-TODO
+Function for displaying user's message at specific time that the user sets. Function for deleting future reminders.
 
 #### What problems, if any, have you encountered?
 
-TODO
+After brainstorming, I believe I can only complete this project in python and not in an app or website, because of the addtional time and learning curve of working on those different platforms. I might be not able to have more than one specific time stored because of the planned deleting reminder feature, and for intervel time only one input can be used and displayed at a time. I think I will be able to somewhat figure out how to delete a future specific reminder, but it might not be fully functional or working as intended.
