@@ -3,7 +3,7 @@ Reminder Program
 
 Name: Tiffany Truong
 
-Video URL: 
+Video URL: https://youtu.be/S9B_-wcQRtI
 
 Project Details:
 I made my project in python. User inputs the message they want for their reminder. Then they are given a choice of having a specific reminder "hh:mm am/pm" or an interval timer of "seconds, minutes, or hours" from the time they set their reminder. 
