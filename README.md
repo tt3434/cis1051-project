@@ -14,3 +14,16 @@ If the user chose a interval reminder they are asked if they want the reminder w
 
 Difficulties:
 I wanted an additional feature for the user to delete future reminders and the user being able to set a new reminder after the old one gets deleted, but I could not figure out a method to do so, I tried "dict.clear()" and "del dict[]" but I ran into errors of the dictionary or the values not clearing when I tried to set a new reminder and gettings output values from the first reminder. I believe it's because it's something with variables or values not being cleared and I'm not sure how to find a solution for this.
+
+Things I learned:
+I figured how after looking through python time library you can use time.sleep to count down any number, and I like how it simplified things. Also, intitally I had a seperate function to validate for valid characters when the user entered in "hh:mm AM/PM", but it did not check for format. I was able to find a source that I made a citation for in my code, which used datetime and could check if a input had a certain format like mm-dd-yyyy and I was able to edit it so it would check for hh:mm AM/PM format and if the input was wrong you can just do return of the function and it reprompts the user, which was something I never realized before. For context:
+
+def specifictime(text):
+    timeinput=input("Enter time (hh:mm AM/PM):")
+    try:
+        datetime.datetime.strptime(timeinput, '%I:%M %p')
+    except ValueError:
+        print("Incorrect format, Enter time (hh:mm AM/PM)")
+        return specifictime(text)
+#^^^ Citation: https://stackoverflow.com/questions/16870663/how-do-i-validate-a-date-string-format-in-python 
+#Uses datetime, checks if input matches format, checks and reprompts if wrong input, I used it to check for hours, mins, and AM/PM.
