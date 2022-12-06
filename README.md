@@ -2,6 +2,7 @@
 Reminder Program
 
 Name: Tiffany Truong
+Info: Fall 2022 CIS 1051
 
 Video URL: https://youtu.be/S9B_-wcQRtI
 
